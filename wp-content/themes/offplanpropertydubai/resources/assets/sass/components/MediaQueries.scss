@@ -1,0 +1,71 @@
+// Small screens
+@media only screen and (max-width: 40em) {
+	.Project__carousel__content--container {
+		h2 {
+			font-size: 3rem;
+		}
+	}
+
+	.Home {
+		.Slide {
+			height: 35vh !important;
+		}		
+		
+		.Slide__content {
+			width: 80% !important;
+		}
+
+		.About {
+			.Row {
+				flex-direction: column;
+			}
+		}
+
+		.CommunityListings {
+			.Row {
+				flex-direction: column;
+			}
+
+			.CommunityListing {
+				width: auto;
+				min-height: 250px;
+			}
+
+			.downtown-dubai-community {
+				background-position: center;
+			}
+		}
+	}
+
+	.owl-wrapper {
+		.owl-item {
+			margin: 0px !important;
+		}
+	}
+
+	.Column-6 {
+		flex: 1;
+	}
+
+	.Row {
+		flex-direction: column;
+	}
+	
+	.Flex {
+		flex-direction: column;
+	}
+
+	.Invest__title {
+		text-align: center;
+	}
+
+	.form-group__content {
+		flex-direction: row !important;
+	}
+
+	.Floorplans {
+		.Column-3 {
+			flex: .5;
+		}
+	}
+}

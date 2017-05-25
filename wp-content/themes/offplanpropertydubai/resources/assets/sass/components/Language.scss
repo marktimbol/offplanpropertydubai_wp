@@ -1,0 +1,74 @@
+html[lang="ar"] {
+	direction: rtl;
+
+	.owl-carousel {
+		direction: ltr;
+	}
+
+	.Hero__carousel--nav {
+		flex-direction: row-reverse;
+	}
+
+	.DeveloperListings--nav {
+		flex-direction: row-reverse;
+	}
+
+	.Project__carousel--nav {
+		flex-direction: row-reverse;
+	}
+
+	.Project__description {
+		ul.list-group {
+			padding-right: 0;
+		}
+	}
+
+	// Nav
+	.navbar-nav {
+		float: right;
+		padding-right: 0px;
+		li {
+			float: right;
+		}
+	}
+
+	.navbar-right {
+		float: left !important;
+	}
+
+	.navbar-header {
+		float: right;
+	}
+
+	// Table
+	caption, th {
+		text-align: right;
+	}
+
+	// Form
+	.checkbox label, .radio label {
+		padding-right: 20px;
+	}
+
+	.checkbox input[type=checkbox], 
+	.checkbox-inline input[type=checkbox], 
+	.radio input[type=radio], 
+	.radio-inline input[type=radio] {
+		margin-right: -20px;
+	}
+
+	.col-md-1, 
+	.col-md-10, 
+	.col-md-11, 
+	.col-md-12, 
+	.col-md-2, 
+	.col-md-3, 
+	.col-md-4, 
+	.col-md-5, 
+	.col-md-6, 
+	.col-md-7, 
+	.col-md-8, 
+	.col-md-9 {
+		float: right;
+	}
+}
